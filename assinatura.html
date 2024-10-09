@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Assinatura Outlook</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="/scripts/script.js" defer ></script>
+</head>
+<body id="body_assinatura">
+
+    <div id="div_form_assinatura">  
+    <h1>Gerador Assinatura de E-mail</h1>
+    <form id="info_Form">
+        <label for="nome">Nome: *(Obrigatório)</label>
+        <input type="text" id="nome" name="nome" maxlength="60" placeholder="Insira o Nome e Sobrenome">
+
+        <label for="cargo">Cargo/Setor: *(Obrigatório)</label>
+        <input type="text" id="cargo" name="cargo" maxlength="60" placeholder="Insira o Cargo" required>
+        
+        <label for="ramal">Ramal: (Opcional)</label>
+        <input type="text" id="ramal" name="ramal" maxlength="15" placeholder="Insira o Ramal">
+        
+        <label for="email">Email: *(Obrigatório)</label>
+        <input type="email" id="email" name="email" placeholder="Insira o E-mail" required>
+        
+        <label for="tell">Telefone: (Opcional)</label>
+        <input type="tel" id="tell" name="tell" maxlength="15" placeholder="Insira o número de Telefone">
+
+        <button type="button" id="btn_gerar_copiar" name="btn_gerar_copiar" >Gerar e Copiar Assinatura</button>
+    </form>
+</div>
+    <!-- Tabela da assinatura -->
+<table id="tabela_assinatura" style="display: none; width: 100%; max-width: 600px; border-collapse: collapse; font-family: Arial, sans-serif; background-color: #ffffff; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+    <tr>
+        <td style="padding: 20px; background-color: #1780f1; color: #ffffff; width: 50%; vertical-align: top;">
+            <h2 style="margin: 0; font-size: 20px; font-weight: bold; text-align: left; color: #ffffff;" id="nome_func">Nome Funcionário</h2>
+            <p style="margin: 5px 0; font-size: 16px; font-weight: bold; text-align: left;" id="cargo_func">Cargo</p>
+            <p id="ramal_row" style="margin: 5px 0; font-size: 16px; font-weight: bold; text-align: left;">Ramal: <strong id="ramal_func">Número do Ramal</strong></p>
+            <p id="tell_row" style="margin: 5px 0; font-size: 16px; font-weight: bold; text-align: left;">Telefone: <strong id="tell_func">Número do Telefone</strong></p>
+            <p style="margin: 5px 0; font-size: 16px; font-weight: bold; text-align: left;">Email: <a href="" style="color: #ffffff; text-decoration: underline;" id="email_func">email@jnfraldas.com.br</a></p>
+            <p style="margin: 5px 0; font-size: 16px;">
+                <a href="https://www.jnfraldas.com.br/" style="color: #ffffff; text-decoration: none;">
+                    <img src="https://img.icons8.com/material-outlined/24/ffffff/globe.png" alt="Ícone de Site" style="vertical-align: middle; margin-right: 8px;">
+                </a>
+                <a href="https://www.facebook.com/jnfraldaspage" style="color: #ffffff; text-decoration: none;">
+                    <img src="https://img.icons8.com/material-outlined/24/ffffff/facebook-new.png" alt="Ícone do Facebook" style="vertical-align: middle; margin-right: 8px;">
+                </a>
+                <a href="https://www.instagram.com/jnfraldas/" style="color: #ffffff; text-decoration: none;">
+                    <img src="https://img.icons8.com/material-outlined/24/ffffff/instagram-new.png" alt="Ícone do Instagram" style="vertical-align: middle;">
+                </a>
+            </p>
+        </td>
+        <td style="padding: 25px; text-align: center; vertical-align: top; background-color: #011C50; width: 50%;">
+            <img src="http://intranet.mensa.corp/wp-content/uploads/2024/07/cropped-cropped-logo-e1722341731154.png" alt="Logo da Empresa" style="max-width: 100%; height: auto; margin-top: 10px;">
+            <h1 style="color: #ffffff; margin: 0; padding-top: 10px; font-size: 28px; font-weight: bold;">JN FRALDAS</h1>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="padding: 10px; text-align: center; background-color: #f4f4f4;">
+            <p style="margin: 0; font-size: 12px; color: #555;">© 2024 JN Fraldas. Todos os direitos reservados.</p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
+    
+    
+    

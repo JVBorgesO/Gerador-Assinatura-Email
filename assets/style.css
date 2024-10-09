@@ -1,0 +1,72 @@
+#body_assinatura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh; /* Define a altura da página como 100% da viewport */
+    margin: 0
+    
+}
+
+#div_form_assinatura {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px;
+}
+/* #content {
+    text-align: center;
+} */
+#info_Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 35em;
+}
+#info_Form label {
+    text-align: left;
+    color: #00369b;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#info_Form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#info_Form button{
+    background-color: #1780f1;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+#info_Form  button:hover {
+    background-color: #0f60b3;
+}
+#tabela_assinatura {
+    margin-top: 30px;
+}
+#tabela_assinatura{
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color:#00369b;
+}
